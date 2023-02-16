@@ -24,3 +24,22 @@ export type User = {
     bs: string;
   };
 };
+
+type SpotifyImage = {
+  height: number;
+  width: number;
+  url: string;
+}
+export type Artist =
+  {
+    followers: {
+      href: null | string,
+      total: number,
+    },
+    genres: string[],
+    id: string,
+    images: SpotifyImage[],
+    name: string,
+    popularity: number,
+    type: string,
+}
