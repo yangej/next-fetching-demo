@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    width: 350px;
+    background-color: black;
+}
+.title {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    text-align: center;
+}
+.name {
+    color: white
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
